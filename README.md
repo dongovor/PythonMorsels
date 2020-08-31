@@ -1,1 +1,1 @@
-# Solution for the Python Morsels weekly tasks
+# Solutions for the Python Morsels weekly tasks

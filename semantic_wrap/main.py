@@ -1,7 +1,5 @@
 def semantic_wrap(in_str):
-    out_str = ''
-    for i in in_str.split('. '):
-        out_str += f'{i}\n'
-    return out_str
-
-print(semantic_wrap("Sentence one. Sentence two. Sentence three."))
+    PUNKT_CHAR = ('.', '?', '!')
+    for p_char in PUNKT_CHAR:
+        in_str = in_str.replace(f'{p_char} ', f'{p_char}\n')
+    return in_str

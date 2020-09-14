@@ -9,3 +9,11 @@ class Circle:
 
     def diameter(self):
         return str(2 * self.radius)
+
+
+c = Circle()
+print(c.diameter())
+
+c.radius = 5
+
+print(c.diameter())

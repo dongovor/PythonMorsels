@@ -1,6 +1,6 @@
 #Grades project
 
-def grades(grade):
+def percent_to_grade(grade, suffix = False):
     if grade < 60:
         return 'F'
     elif 60 <= grade < 70:
